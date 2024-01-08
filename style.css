@@ -1,0 +1,58 @@
+/* common Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol li{
+    list-style: none;
+    display: flex;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common Css end */
+
+/* nav bar start */
+
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 50%;
+}
+
+nav .content{
+    width: 50%;
+    text-align: right;
+}
+nav .content ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/* nav bar end */
+
